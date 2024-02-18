@@ -8,8 +8,8 @@ import seaborn as sns
 
 
 # Load the training and testing data
-train_data = pd.read_csv('/Users/succhaygadhar/Downloads/archive (1) 2/Training.csv')
-test_data = pd.read_csv("/Users/succhaygadhar/Downloads/archive (1) 2/Testing.csv")
+train_data = pd.read_csv('Training.csv')
+test_data = pd.read_csv('Testing.csv')
 
 # Select features and target variable for training data
 X_train = train_data.drop(columns=['prognosis'])
