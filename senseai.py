@@ -31,7 +31,7 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Model Accuracy:", accuracy)
 
 # Streamlit UI
-st.image("/Users/succhaygadhar/Documents/Logo.png", width = 400)
+st.image("Logo.png", width = 400)
 st.title("SymptomSense: AI Health Diagnosis")
 
 # Ask for symptoms from the user
